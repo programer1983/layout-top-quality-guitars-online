@@ -24,7 +24,7 @@ body {
     padding: 0px 15px;
 }
 
-.main {
+.page {
     flex: 1 1 auto;
 }
 
@@ -33,5 +33,42 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+}
+
+
+
+/* ===== HEADER =========================================================== */
+
+.header {}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 131px;
+    min-height: 152px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header__logo {}
+
+.header__menu {}
+
+.menu {}
+
+.menu__list {
+    display: flex;
+    gap: 56px;
+}
+
+.menu__item {}
+
+.menu__link {
+    color: rgba(18, 18, 18, 0.4);
+    font-weight: 500;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
 }
 
