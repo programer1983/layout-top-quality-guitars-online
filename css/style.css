@@ -1,1 +1,16 @@
-@import "./reset.css"
+@import "./reset.css";
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap/>);
+
+@font-face {
+    font-family: CalSans;
+    font-display: swap;
+    src: url("./../fonts/CalSans-SemiBold.woff") format("woff"), url("./../fonts/CalSans-SemiBold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Poppins;
+    color: #666666;
+}
